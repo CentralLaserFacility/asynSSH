@@ -311,7 +311,7 @@ static struct iocshVarDef vardefs[] = {
 int asynSSHTest_registerRecordDeviceDriver(DBBASE *pbase)
 {
     static int executed = 0;
-    const char *bldTop = "/mnt/c/Users/Admin/Downloads/asynSSH_V1-0";
+    const char *bldTop = "/usr/local/epics3.15.6/support/asynSSH/asynSSH_V1-0";
     const char *envTop = getenv("TOP");
 
     if (envTop && strcmp(envTop, bldTop)) {
