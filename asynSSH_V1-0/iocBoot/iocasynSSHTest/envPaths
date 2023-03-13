@@ -1,0 +1,6 @@
+epicsEnvSet("IOC","asynSSHTest")
+epicsEnvSet("TOP","/mnt/c/Users/Admin/Downloads/asynSSH_V1-0")
+epicsEnvSet("EPICS_BASE","/usr/local/epics/base")
+epicsEnvSet("SUPPORT","/usr/local/epics/support")
+epicsEnvSet("ASYN","/usr/local/epics/support/asyn/current")
+epicsEnvSet("STREAMDEVICE","/usr/local/epics/support/stream/current")

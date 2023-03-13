@@ -1,0 +1,3 @@
+registrar(drvAsynSSHPortRegisterCommands)
+#include "asyn.dbd"
+

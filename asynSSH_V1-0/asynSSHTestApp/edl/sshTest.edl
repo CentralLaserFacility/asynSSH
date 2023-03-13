@@ -1,0 +1,518 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 1163
+y 185
+w 477
+h 318
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "SSH Test App"
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 170
+w 375
+h 20
+controlPv "SSH1:PARSE_LS.VALA"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 190
+w 375
+h 20
+controlPv "SSH1:PARSE_LS.VALB"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 210
+w 375
+h 20
+controlPv "SSH1:PARSE_LS.VALC"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 230
+w 375
+h 20
+controlPv "SSH1:PARSE_LS.VALD"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 250
+w 375
+h 20
+controlPv "SSH1:PARSE_LS.VALE"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 270
+w 375
+h 20
+controlPv "SSH1:PARSE_LS.VALF"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 90
+w 395
+h 20
+controlPv "SSH1:PWD"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 120
+y 35
+w 320
+h 20
+controlPv "SSH1:UPTIME"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Motif Slider)
+object activeMotifSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 420
+y 145
+w 20
+h 150
+fgColor index 14
+bgColor index 0
+2ndBgColor index 14
+topShadowColor index 0
+botShadowColor index 14
+increment 1
+controlPv "SSH1:INDEX"
+controlLabelType "pvName"
+font "arial-medium-r-18.0"
+precision 1
+scaleMin 100
+scaleMax 0
+orientation "vertical"
+savedValuePv "SSH1:INDEX"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 215
+y 10
+w 225
+h 20
+controlPv "SSH1:USER"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 10
+w 159
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Logged In As User:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 35
+w 63
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Uptime:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 65
+w 42
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Pwd:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 125
+w 162
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Directory Contents:"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 170
+w 375
+h 20
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SSH1:SELECT_CD"
+pressValue "1"
+3d
+invisible
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 190
+w 375
+h 20
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SSH1:SELECT_CD"
+pressValue "2"
+3d
+invisible
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 210
+w 375
+h 20
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SSH1:SELECT_CD"
+pressValue "3"
+3d
+invisible
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 230
+w 375
+h 20
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SSH1:SELECT_CD"
+pressValue "4"
+3d
+invisible
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 250
+w 375
+h 20
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SSH1:SELECT_CD"
+pressValue "5"
+3d
+invisible
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 270
+w 375
+h 20
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SSH1:SELECT_CD"
+pressValue "6"
+3d
+invisible
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 150
+w 375
+h 20
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+value {
+  ".."
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 150
+w 375
+h 20
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SSH1:CD"
+pressValue ".."
+3d
+invisible
+font "arial-medium-r-18.0"
+endObjectProperties
+

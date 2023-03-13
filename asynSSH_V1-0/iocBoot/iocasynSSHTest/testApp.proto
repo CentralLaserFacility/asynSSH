@@ -1,0 +1,44 @@
+# Example protocol file for the Delta Tau Power PMAC
+
+InTerminator = CR LF;
+OutTerminator = CR;
+ExtraInput = Ignore;
+
+# Accepts any string, replaces the input with the response
+debug {
+  out "%s";
+  in "%#s";  
+}
+
+user {
+  out "whoami";
+  in "%s";
+}
+
+uptime {
+  out "uptime";
+  in "%#s";  
+}
+
+pwd {
+  out "pwd";
+  in "%2048c";  
+}
+
+lsm {
+  wait 500;
+  InTerminator = "";
+  out "ls -m";
+  in "%2048c";  
+}
+
+lscnt {
+  out "ls | wc -l";
+  wait 500;
+  in "%d";  
+}
+
+cd {
+  out "cd %s";
+}
+
